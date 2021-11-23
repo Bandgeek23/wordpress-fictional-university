@@ -1,0 +1,378 @@
+[06-Dec-2020 21:25:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/SynopsisValidator.php on line 92
+[06-Dec-2020 21:25:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/SynopsisValidator.php on line 92
+[06-Dec-2020 22:40:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 10
+[06-Dec-2020 22:47:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 10
+[13-Dec-2020 19:24:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'univeristy_files' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 287
+[13-Dec-2020 19:24:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'univeristy_files' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 287
+[13-Dec-2020 19:24:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'univeristy_files' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 287
+[13-Dec-2020 19:25:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'univeristy_files_two' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 287
+[13-Dec-2020 19:26:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'univeristy_files' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 287
+[13-Dec-2020 22:27:28 UTC] PHP Warning:  Use of undefined constant get_the - assumed 'get_the' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 37
+[13-Dec-2020 22:27:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ID() in /app/public/wp-content/themes/fictional-university-theme/page.php:37
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(106): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page.php on line 37
+[13-Dec-2020 22:54:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/fictional-university-theme/header.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(730): require_once()
+#1 /app/public/wp-includes/template.php(676): load_template('/app/public/wp-...', true, Array)
+#2 /app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(106): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 4
+[22-Dec-2020 22:10:24 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/archive.php on line 12
+[22-Dec-2020 22:42:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:62
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(106): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 62
+[23-Dec-2020 17:55:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_them_file_uri() in /app/public/wp-content/themes/fictional-university-theme/functions.php:10
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(287): university_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2001): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(3009): do_action('wp_head')
+#8 /app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /app/public/wp-includes/template.php(730): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(676): load_template('/app/public/wp-...', tr in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 10
+[24-Dec-2020 17:32:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(106): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 60
+[24-Dec-2020 17:44:07 UTC] PHP Parse error:  syntax error, unexpected 'get_post_type_archive_link' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/header.php on line 26
+[24-Dec-2020 20:18:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echo_site_url() in /app/public/wp-content/themes/fictional-university-theme/archive-event.php:36
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(106): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 36
+[24-Dec-2020 20:18:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echo_site_url() in /app/public/wp-content/themes/fictional-university-theme/archive-event.php:36
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(106): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 36
+[24-Dec-2020 20:18:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echo_site_url() in /app/public/wp-content/themes/fictional-university-theme/archive-event.php:36
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(106): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 36
+[24-Dec-2020 20:55:35 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 30
+[24-Dec-2020 20:55:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 30
+[24-Dec-2020 20:56:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 29
+[24-Dec-2020 20:57:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 31
+[24-Dec-2020 20:58:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 38
+[24-Dec-2020 21:11:50 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 49
+[25-Dec-2020 17:13:32 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 43
+[25-Dec-2020 21:51:34 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 42
+[26-Dec-2020 17:58:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/page.php on line 7 and exactly 1 expected in /app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/page.php(7): pageBanner()
+#1 /app/public/wp-includes/template-loader.php(106): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[27-Dec-2020 23:56:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/header.php on line 27
+[28-Dec-2020 00:26:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 101
+[28-Dec-2020 00:27:54 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:28:35 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:28:46 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:28:53 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:31:21 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:31:21 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:34:48 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:35:04 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:36:09 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:36:31 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:37:03 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:40:00 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:40:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/fictional-university-theme/single-program.php:84
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(106): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 84
+[28-Dec-2020 00:40:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/fictional-university-theme/single-program.php:84
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(106): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 84
+[28-Dec-2020 00:44:21 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 90
+[28-Dec-2020 00:44:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 94
+[28-Dec-2020 00:44:40 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 94
+[28-Dec-2020 00:45:33 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:45:34 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[28-Dec-2020 00:47:35 UTC] PHP Warning:  Use of undefined constant map_location - assumed 'map_location' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[29-Dec-2020 19:41:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 268435464 bytes) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 21
+[29-Dec-2020 19:42:47 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 268435464 bytes) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 21
+[29-Dec-2020 19:42:56 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 268435464 bytes) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 21
+[29-Dec-2020 19:43:45 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 268435464 bytes) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 21
+[30-Dec-2020 01:21:44 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 15
+[30-Dec-2020 01:21:44 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 15
+[30-Dec-2020 22:19:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 90
+[30-Dec-2020 22:19:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 90
+[30-Dec-2020 22:44:34 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 45
+[30-Dec-2020 22:44:34 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 45
+[30-Dec-2020 22:44:36 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 45
+[30-Dec-2020 22:44:37 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 45
+[30-Dec-2020 22:44:56 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 45
+[31-Dec-2020 16:08:14 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/search.php on line 6
+[31-Dec-2020 16:08:14 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/search.php on line 6
+[01-Jan-2021 06:04:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ourLoginTitle' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 287
+[01-Jan-2021 06:04:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_blog_info() in /app/public/wp-content/themes/fictional-university-theme/functions.php:147
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(287): ourLoginTitle('')
+#1 /app/public/wp-includes/plugin.php(249): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(633): apply_filters_ref_array('login_headertit...', Array)
+#3 /app/public/wp-login.php(148): apply_filters_deprecated('login_headertit...', Array, '5.2.0', 'login_headertex...', 'Usage of the ti...')
+#4 /app/public/wp-login.php(1392): login_header('Log In', '', Object(WP_Error))
+#5 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 147
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:14 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:14 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:14 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:15 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:15 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:15 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:17 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:17 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:17 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:18 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:18 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:18 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:18 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:18 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:31 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:31 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:31 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:31 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:32 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2453
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2485
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2516
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 3066
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-includes/wp-db.php on line 2243
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /app/public/wp-includes/wp-db.php on line 2253
+[02-Jan-2021 04:53:32 UTC] WordPress database error Column count doesn't match value count at row 1 for query INSERT INTO `wp_posts` (``) VALUES () made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[02-Jan-2021 05:23:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_area_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:156
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3971): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 156
+[02-Jan-2021 05:23:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_area_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:156
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3971): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 156
+[02-Jan-2021 05:23:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_area_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:156
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3971): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 156
+[02-Jan-2021 05:23:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_area_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:156
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3971): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 156
+[02-Jan-2021 05:23:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_area_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:156
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3971): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 156
+[02-Jan-2021 05:23:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_area_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:156
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3971): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 156
+[03-Jan-2021 18:32:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php:52
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): deleteLike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(745): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1285): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/pub in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 52
+[03-Jan-2021 18:32:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php:52
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): deleteLike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(745): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1285): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/pub in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 52
+[03-Jan-2021 18:34:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php:52
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): deleteLike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(745): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1285): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/pub in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 52
